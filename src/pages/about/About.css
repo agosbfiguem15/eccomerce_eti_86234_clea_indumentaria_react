@@ -1,0 +1,157 @@
+.about-container {
+  width: var(--width);
+  margin: 0 auto;
+}
+
+.section-ecommerce {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  p {
+    font-size: var(--font-size-2xl);
+
+  }
+}
+
+.outstanding {
+  color: var(--color-secondary);
+  font-size: var(--font-size-3xl);
+  font-weight: bold;
+  font-family: var(--font-fourth);
+}
+
+.section-proyect {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    font-size: var(--font-size-lg);
+  }
+}
+
+.information-proyect {
+  width: 100%;
+}
+
+.information-proyect p {
+  margin: 15px auto;
+  width: 100%;
+  text-align: justify;
+}
+
+.section-user {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.member {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.user-title {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.user-title h2 {
+  margin: 0;
+}
+
+.card.about {
+  width: 100%;
+  margin: 0;
+  border-radius: var(--radius-lg);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-user {
+  width: 100%;
+  height: 500px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.card-user img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-description {
+  padding: 20px;
+  text-align: justify;
+}
+
+.card-title {
+  color: var(--color-secondary);
+  font-size: var(--font-size-2xl);
+}
+
+@media (width > 768px) {
+
+  .card-user {
+    height: 700px;
+  }
+
+}
+
+@media (width > 1024px) {
+
+
+  .section-user {
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: stretch;
+  }
+ 
+  .user-title {
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-about {
+    height: 850px;
+  }
+
+  .card-user {
+    height: 500px;
+  }
+}
+
+ @media (width > 1280px) {
+
+  .section-ecommerce, .section-proyect, .section-user {
+    max-width: 1800px;
+  }
+
+  .card-about {
+    height: 1000px;
+  }
+
+  .card-user {
+    height: 700px;
+  }
+
+}

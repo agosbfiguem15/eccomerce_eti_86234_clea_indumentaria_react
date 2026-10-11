@@ -1,0 +1,93 @@
+.card {
+  flex: 0 1 300px;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+  transition: transform var(--transition);
+  margin: 20px 0;
+
+  .card-image {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: var(--transition);
+  }
+
+  &:hover img {
+    filter: brightness(70%);
+  }
+
+  &:hover .card-view {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-body-secondary {
+  text-transform: uppercase;
+}
+
+.card-view {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(.8);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: var(--color-text);
+  text-decoration: none;
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+  transition: var(--transition);
+  margin-top: auto;
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-bg-alt);
+  color: #fff;
+}
+
+.favorite-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-bg);
+  border-radius: var(--radius-lg);
+  color: var(--color-text);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.favorite-btn:hover {
+  transform: scale(1.1);
+}
+

@@ -1,0 +1,33 @@
+.products-container {
+  width: var(--width);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.products-loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  min-height: 200px;
+}
+
+.products-loading .spinner-border {
+  width: 40px;
+  height: 40px;
+  color: var(--color-secondary);
+}
+
+.products-loading p {
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  color: var(--color-secondary);
+  text-align: center;
+  margin: 0;
+  line-height: 1.5;
+}

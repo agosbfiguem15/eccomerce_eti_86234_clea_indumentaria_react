@@ -1,0 +1,12 @@
+.products {
+  width: var(--width);
+  margin: 0 auto;
+}
+
+@media (width > 1280px) {
+
+  .products {
+    max-width: 1800px;
+  }
+
+}

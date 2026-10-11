@@ -1,0 +1,54 @@
+.admin-profile,
+.admin-cards {
+  margin: 10px auto;
+  width: var(--width);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.admin-information {
+  text-align: center;
+}
+
+.card-admin-card {
+  width: 100%;
+  height: auto;
+}
+
+.card-subtitle.mb-2.text-body-secondary {
+  text-align: center;
+}
+
+.card-admin-card .card-body {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 30px 15px;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  box-sizing: border-box;
+}
+
+.card-icon {
+  padding-bottom: 5px;
+}
+
+.card-link {
+  text-decoration: none;
+  color: var(--color-secondary);
+  font-size: var(--font-size-lg);
+}
+
+@media (width > 640px) {
+
+  .card-admin-card {
+    width: 600px;
+  }
+
+}

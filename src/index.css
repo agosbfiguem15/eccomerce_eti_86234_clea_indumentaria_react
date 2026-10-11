@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Great+Vibes&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&family=Great+Vibes&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #ffffff;
+  --color-secondary: #67130bf0;
+  --color-accent: #a03601;
+  --color-text: #000000;
+  --color-bg: #ffffff;
+  --color-bg-alt: #000000;
+  --color-bg-transparent: rgba(0, 0, 0, 0.5);
+  --color-bg-hero: rgb(112, 87, 60);
+  --color-border: #580610ec;
+  --color-required: rgb(191, 1, 1);
+
+  --font-primary: 'Inter', sans-serif;
+  --font-secondary: 'PT Sans', sans-serif;
+  --font-third: 'Great Vibes', sans-serif;
+  --font-fourth: 'Bodoni Moda', sans-serif;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-5xl: 2.50rem;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+  --transition: 0.3s ease;
+
+  --width: calc(100% - 30px);
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+main {
+  flex: 1;
+}
