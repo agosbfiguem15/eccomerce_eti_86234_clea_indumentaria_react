@@ -22,11 +22,11 @@ La plataforma permite explorar un catálogo de productos de indumentaria y marro
 
  1. Clonar el repositorio
 
- git clone 
+ git clone https://github.com/agosbfiguem15/eccomerce_eti_86234_clea_indumentaria_react.git
 
  2. Ingresar a la carpeta del proyecto
 
- cd 
+ cd eccomerce_eti_86234_clea_indumentaria_react
 
  3. Instalar las dependencias
 
