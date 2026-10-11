@@ -11,7 +11,7 @@ export default function ProductRow({ prod, handleDelete, handleEdit }) {
       <td>{prod.description}</td>
       <td><img src={prod.image} alt={prod.name} className="table-img"/></td>
       <td>{prod.category.toUpperCase()}</td>
-      <td>{formatDate(prod.date)}</td>
+      <td>{formatDate(prod.createDate)}</td>
       <td>
         <div className="action-buttons">
         <button type="button" className="btn btn-secondary action-btn" onClick={() => handleEdit(prod.id)}>
